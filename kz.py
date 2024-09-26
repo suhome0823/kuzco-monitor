@@ -5,7 +5,7 @@ import sys
 import re
 
 # 可调用户设置参数
-workers = 3  # 开越多网页控制板Generations计算延迟越高，计算延迟控制在3w左右合适，超过3万会假死！！
+workers = 2  # 开越多网页控制板Generations计算延迟越高，计算延迟控制在3w左右合适，超过3万会假死！！
 check_interval = 3600  # 检测时间间隔，单位：秒，修改为1小时
 restart_wait_time = 30  # 重启等待时间，单位：秒
 
